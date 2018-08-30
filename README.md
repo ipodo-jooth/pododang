@@ -2,10 +2,10 @@
 
 ![PODODANG](pododang.png)
 
-![version](https://img.shields.io/badge/ver-1.0.0-blue.svg) ![lang](https://img.shields.io/badge/Language-JavaScript-orange.svg) ![framework](https://img.shields.io/badge/Framework-NodeJS-red.svg)
+![company](https://img.shields.io/badge/members-ipodo-blue.svg) ![lang](https://img.shields.io/badge/Language-JavaScript-brightgreen.svg) ![framework](https://img.shields.io/badge/Framework-NodeJS-red.svg)
 
 ## Getting Started
-PODODANG은 PODO.INC 소속으로 이루어진 자기 계발 모임이며, 최신 자바스크립트 동향 및 코드리뷰 등의 활동을 목표로 한다.
+PODODANG은 PODO.INC 소속으로 이루어진 자기 계발 모임이며, 최신 자바스크립트 동향 및 코드 리뷰 등의 활동을 한다.
 
 ### Prerequisites
 ```
@@ -13,7 +13,7 @@ PODODANG은 PODO.INC 소속으로 이루어진 자기 계발 모임이며, 최�
 
  > install Git-x.x.x-64-bit.exe 
 
- > join https://github.com
+ > join github
 
  > git config --global user.name "${github user.name}"
 
@@ -30,6 +30,12 @@ PODODANG은 PODO.INC 소속으로 이루어진 자기 계발 모임이며, 최�
  > git branch #{client-name} (e.g. jooth)
 
  > git checkout #{client-name} (e.g. jooth)
+```
+
+### Contribute
+
+```
+ > git push origin ${client-name}
 ```
 
 ## Authors

@@ -32,6 +32,10 @@ PODODANG은 PODO.INC 소속으로 이루어진 자기 계발 모임이며, 최�
  > git checkout #{client-name} (e.g. jooth)
 ```
 
+### How to use
+[Git 간편 안내서](https://rogerdudler.github.io/git-guide/index.ko.html)
+
+
 ### Contribute
 
 ```

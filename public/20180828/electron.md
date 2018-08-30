@@ -69,7 +69,7 @@
 ## Electron 설계 애플리케이션
 
 <div>
-    <img alt="apps" src="../../images/apps.png">
+    <img alt="apps" src="../../private/images/apps.png">
 </div>
 
 

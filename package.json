@@ -1,0 +1,33 @@
+{
+  "name": "pododang",
+  "version": "1.0.0",
+  "description": "study group of podo.inc",
+  "main": "README.md",
+  "dependencies": {
+    "reset-css": "^4.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 4000 ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipodo/pododang.git"
+  },
+  "keywords": [
+    "#js",
+    "#es6",
+    "#nodejs",
+    "#algorithms",
+    "#html"
+  ],
+  "author": "pododang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipodo/pododang/issues"
+  },
+  "homepage": "https://github.com/ipodo/pododang#readme"
+}

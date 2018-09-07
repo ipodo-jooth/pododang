@@ -6,6 +6,3 @@ private/*
 
 #node modules
 node_modules/*
-
-#pacakges
-package*.json

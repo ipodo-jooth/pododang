@@ -8,6 +8,8 @@
 PODODANG은 PODO.INC 소속으로 이루어진 자기 계발 모임이며, 최신 자바스크립트 동향 및 코드 리뷰 등의 활동을 한다.
 
 ### Prerequisites
+
+#### Git 
 PODODANG에서 진행하는 스터디의 자료 및 코드 관리의 경우 Git을 이용하며, 이를 위해 Git 설치가 선행되어야 한다.
 ```
  > git download (latest version download: https://git-scm.com/download/win)
@@ -37,8 +39,17 @@ github 회원 가입 후 로컬 git의 전역 환경 변수를 설정한다.
  > git config --global user.name "${user.name}" (e.g. ipodo)
  ```
 
+#### Nodejs
+PODODANG은 Node.js를 이용한 자바스크립트 서버 사이드 및 프론트 개발 등의 활동을 한다.
+```
+download: https://nodejs.org/ko/download/
+
+install: node-x.xx.x-x64.msi
+```
+
 ### Install
 
+#### Git Repository 설치
 ```
  > git clone https://github.com/ipodo/pododang.git
 
@@ -47,6 +58,14 @@ github 회원 가입 후 로컬 git의 전역 환경 변수를 설정한다.
  > git branch #{client-name} (e.g. ipodo)
 
  > git checkout #{client-name} (e.g. ipodo)
+```
+
+#### http server 설치 및 실행
+
+```
+ > npm install
+
+ > npm start
 ```
 
 ### How to use

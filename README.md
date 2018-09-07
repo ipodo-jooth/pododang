@@ -40,7 +40,7 @@ github 회원 가입 후 로컬 git의 전역 환경 변수를 설정한다.
  ```
 
 #### Nodejs
-PODODANG은 Node.js를 이용한 자바스크립트 서버 사이드 및 프론트 개발 등의 활동을 한다.
+PODODANG은 node.js를 이용한 자바스크립트 서버 사이드 및 프론트 개발 등의 활동을 한다. node.js의 경우 특별한 설정없이 간단하게 설치할 수 있다.
 ```
 download: https://nodejs.org/ko/download/
 

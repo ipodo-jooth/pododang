@@ -14,9 +14,7 @@ function getDecrypt (key) {
     return result;
 }
 
-var encrypt = setEncrypt("dramavoy");
-
-console.log("=======");
-console.log("encrypt: ", encrypt);
-console.log("decrypt: ", getDecrypt(encrypt));
-console.log("=======");
+module.exports = {
+    "setEncrypt": setEncrypt,
+    "getDecrypt": getDecrypt
+};

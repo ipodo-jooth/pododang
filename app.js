@@ -1,5 +1,4 @@
 const crypto = require("./src/js/crypto.js");
-let info = require("./src/data/info.json");
 
 var express = require("express");
 var bodyParser = require("body-parser");
@@ -17,8 +16,8 @@ app.use(logger);
 app.use("/", express.static(__dirname + "/src"));
 app.use("/index", express.static(__dirname + "/src"));
 app.post("/fish", (req, res, next) => {
-    if(crypto.setEncrypt(req.body.uname) === info.username &&
-        crypto.setEncrypt(req.body.psw) === info.password)
+    console.log(crypto.username);
+    if(crypto.setEncrypt(req.body.uname) === crypto.username && crypto.setEncrypt(req.body.psw) === crypto.password)
         res.sendFile(__dirname + "/src/fish.html");
     else 
         res.redirect("/");

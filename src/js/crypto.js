@@ -1,4 +1,5 @@
 const crypto = require("crypto");
+const info = require("../data/info.json");
 
 function setEncrypt (data) {
     const cipher = crypto.createCipher("aes-256-cbc", "dramavoy");
@@ -16,5 +17,7 @@ function getDecrypt (key) {
 
 module.exports = {
     "setEncrypt": setEncrypt,
-    "getDecrypt": getDecrypt
+    "getDecrypt": getDecrypt,
+    "username": info.username,
+    "password": info.password
 };

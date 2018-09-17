@@ -1,36 +1,32 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sign In</title>
-<link rel="stylesheet" href="css/reset.css" >
-<link rel="stylesheet" href="css/style.css" >
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div id="md-container" class="modal">
-  <form class="modal-content animate">
-    <div class="imgcontainer">
-      <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="avatar" class="avatar">
-    </div>
+  <div id="md-container" class="modal">
+    <form class="modal-content animate" action="/fish" method="POST">
+      <div class="imgcontainer">
+        <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="avatar" class="avatar">
+      </div>
 
-    <div class="container">
-      <label for="uname"><b>username</b></label>
-      <input type="text" placeholder="enter username" name="uname" required>
+      <div class="container">
+        <label for="uname"><b>username</b></label>
+        <input type="text" id="uname" placeholder="enter username" name="uname" required>
 
-      <label for="psw"><b>password</b></label>
-      <input type="password" placeholder="enter password" name="psw" required>
-        
-      <button type="submit">Sign-in</button>
-      <label>
-        <input type="checkbox" name="remember"> Remember me
-      </label>
-    </div>
-  </form>
-</div>
-
-<script>
-</script>
-
+        <label for="psw"><b>password</b></label>
+        <input type="password" id="psw" placeholder="enter password" name="psw" required onkeypress="setPasswordToEncrypt(event)">
+        <input type="hidden" id="unpsw" name="unpsw" required>
+        <button type="submit">Sign-in</button>
+      </div>
+    </form>
+  </div>
 </body>
+
 </html>

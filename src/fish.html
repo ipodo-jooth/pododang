@@ -11,21 +11,22 @@ body {font-family: Arial, Helvetica, sans-serif; background-color: #f2f2f2;}
 
 input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
 
-input[type=submit] { background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
+input[type=submit], input[type=button] { background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
 
-input[type=submit]:hover { background-color: #45a049; }
+input[type=submit]:hover, input[type=button]:hover { background-color: #45a049; }
 
 input[type=text]:-moz-read-only { background-color: #ccc; cursor:not-allowed;}
 input[type=text]:read-only { background-color: #ccc; cursor:not-allowed;}
 
 .container { border: 1px solid #666; border-radius: 5px; background-color: #f2f2f2; padding: 20px; margin: auto; margin-top: 10%; width: 60%;}
 </style>
+<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
 <div class="container">
   <form>
     <label for="fname">붕어빵의 갯수</label>
-    <input type="text" id="fname" name="firstname">
+    <input type="text" id="count" name="firstname">
 
     <label for="lname">붕어빵의 가격</label>
     <input type="text" id="lname" name="lastname">
@@ -33,7 +34,7 @@ input[type=text]:read-only { background-color: #ccc; cursor:not-allowed;}
     <label for="result">결과</label>
     <input type="text" id="result" name="result" readonly>
 
-    <input type="submit" value="계산">
+    <input type="button" value="계산" onclick="toSell()">
   </form>
 </div>
 </body>    
